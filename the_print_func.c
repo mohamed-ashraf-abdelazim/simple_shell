@@ -5,7 +5,7 @@
  * @message: the maessage to be print
 */
 
-void the_print_func(const char *message)
+void the_print_func(const char *the_message)
 {
-	write(STDOUT_FILENO, message, strlen(message));
+	write(STDOUT_FILENO, the_message, strlen(the_message));
 }
