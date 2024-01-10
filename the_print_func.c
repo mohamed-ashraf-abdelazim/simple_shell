@@ -2,7 +2,7 @@
 
 /**
  * the_print_func - print function
- * @message: the maessage to be print
+ * @the_message: the message to be print
 */
 
 void the_print_func(const char *the_message)
